@@ -4,7 +4,6 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  dispatch:
 jobs:
   E2E-tests:
     timeout-minutes: 60
